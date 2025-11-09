@@ -13,7 +13,7 @@ size_t target_index);
 /**
  * blur_portion - Applies Gaussian Blur to a specific portion of an image
  * @portion: Pointer to the data structure describing the portion of the image
- * Author: Frank Onyema Orji
+ * 
  */
 void blur_portion(const blur_portion_t *portion)
 {

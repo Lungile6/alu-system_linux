@@ -3,7 +3,6 @@
 /**
 * tprintf - print a message using printf
 * @format: format string
-* Autor: Frank Onyema Orji
 * Return: 0
 */
 int tprintf(char const *format, ...)

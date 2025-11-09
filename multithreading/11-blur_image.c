@@ -16,7 +16,7 @@
  * @img_blur: Address where the blurred image will be stored
  * @img: Original image to be blurred
  * @kernel: Convolution kernel to be used for blurring
- * Author: Frank Onyema Orji
+ * Author: Lungile Mabelebele
  */
 void blur_image(img_t *img_blur, img_t const *img, kernel_t const *kernel)
 {

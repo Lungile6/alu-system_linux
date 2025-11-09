@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /*
- * Feel free to also copy this.
- * No one cares about you so care about yourself
- * Author: Frank Onyema Orji
+ * @brief Automatically initializes tasks_mutex before main() starts.
+ * 
+ *@brief Automatically destroys tasks_mutex after main() finishes.
 */
 
 __attribute__((constructor)) void tasks_mutex_init(void)

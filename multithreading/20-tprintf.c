@@ -7,7 +7,6 @@
  * uses mutex to prevent race conditions
  * @format: formatted string
  * Return: number of characters printed
- * Frank Onyema Orji
  **/
 int tprintf(char const *format, ...)
 {
