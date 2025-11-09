@@ -1,14 +1,17 @@
+#include <stdio.h>
+#include <pthread.h>
 #include "multithreading.h"
 
-/**
-* tprintf - print a message using printf
-* @format: format string
-* Return: 0
-*/
-int tprintf(char const *format, ...)
-{
-	pthread_t tid = pthread_self(); /* get the thread id */
 
-	printf("[%lu] %s", tid, format);
-	return (0);
+/**
+ * thread_entry - Function to be executed by the thread.
+ * @arg: The argument passed to the thread, expected to be a string.
+ *
+ * Return: Always returns NULL.
+ */
+void *thread_entry(void *arg)
+{
+printf("%s\n", (char *)arg);
+pthread_exit(NULL);
+return (NULL);
 }
